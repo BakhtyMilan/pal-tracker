@@ -1,0 +1,8 @@
+applications:
+- name: pal-tracker
+  path: /Users/bakhtiyar.huseynov/workspace/pal-tracker/build/libs/pal-tracker.jar
+  memory: 1G
+  random-route: true
+  env:
+    WELCOME_MESSAGE: Hello from Cloud Foundry
+    JBP_CONFIG_OPEN_JDK_JRE: '{ jre: {version: 1.8.+}}' 
